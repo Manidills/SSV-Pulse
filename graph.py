@@ -603,7 +603,7 @@ def graph():
     if option == 'Validators':
         html_content = create_validators_network_graph()
         st.components.v1.html(html_content, height=800)
-    elif option == 'Validators':
+    elif option == 'Validator':
         html_content = create_single_validator_graph()
         st.components.v1.html(html_content, height=800)
     elif option == 'Operators':
