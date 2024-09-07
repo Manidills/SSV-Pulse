@@ -1,8 +1,11 @@
 import streamlit as st
-
 from dashboard import dashboard_stake
 from fees import fees
 from graph import graph
+from holders import holders
+from growth import growth
+from home import home
+from platform_ import platform_
 
 # Set page configuration
 st.set_page_config(page_title="Shanthi Transport & Logistics", page_icon="🚛", layout="wide")
@@ -25,13 +28,21 @@ with col1:
 with col2:
     new_title = '<p style="font-family:cursive; color:green; font-size: 70px;">SSV-PULSE</p>'
     st.markdown(new_title, unsafe_allow_html=True)
-    section = st.radio("Navigate to", ["Home", "ETH_STAKE", "Fees", "Graph", "Contact Us"], horizontal=True)
+    section = st.radio("Navigate to", ["Home", "Platforms","ETH_Stake", "Fees", "Growth", "Holders", "Explore"], horizontal=True)
 
 
 
-if section == "ETH_STAKE":
+if section == "ETH_Stake":
     dashboard_stake()
 elif section == "Fees":
     fees()
-elif section == "Graph":
+elif section == "Explore":
     graph()
+elif section == "Holders":
+    holders()
+elif section == "Home":
+    home()
+elif section == "Growth":
+    growth()
+elif section == "Platforms":
+    platform_()

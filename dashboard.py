@@ -262,5 +262,7 @@ def dashboard_stake():
         
     generate_summary(df_1)
 
+    
+
 
 
