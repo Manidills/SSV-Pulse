@@ -86,6 +86,10 @@ graph TD
 
 **SSV Pulse** empowers its users with in-depth analytics and AI-driven insights, providing a clear view of the **SSV network's** health, trends, and opportunities. From validators and operators to investors and new participants, **SSV Pulse** delivers the tools needed to thrive in the SSV ecosystem.
 
+**DATA** - https://thegraph.com/explorer/subgraphs/7V45fKPugp9psQjgrGsfif98gWzCyC6ChN7CW98VyQnr?view=Query&chain=arbitrum-one
+
+**DATA CSV** - https://api.ssv.network/documentation/#/
+
 --- 
 
 This structure mirrors the earlier example, emphasizing key features, architecture, and how the platform benefits various stakeholders while adding the visual flowchart to clarify the platform’s architecture.
