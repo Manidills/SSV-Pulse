@@ -1,6 +1,4 @@
 import streamlit as st
-import folium
-from streamlit_folium import folium_static
 
 from dashboard import dashboard_stake
 from fees import fees
